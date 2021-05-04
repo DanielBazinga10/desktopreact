@@ -1,0 +1,163 @@
+.page-login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 95vw;
+  height: 100vh;
+  background: linear-gradient(
+      270deg,
+      rgba(192, 192, 192, 0.85) 6.77%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    #ffffff;
+  box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.5);
+}
+.logo {
+  position: absolute;
+  left: 19.3%;
+}
+.coluna {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 30%;
+  position: absolute;
+  background: #303030;
+  right: 0;
+}
+.coluna h1 {
+  position: absolute;
+  color: #ffffff;
+  font: 600 55px Nunito, sans-serif;
+  top: 5%;
+}
+
+ .input-login {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid black;
+  padding: 1px;
+  width: 70%;
+  height: 30px;
+  margin-bottom: 20px;
+  margin-top: 20%;
+  margin-right: 10px;
+}
+
+ .input-password {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid black;
+  padding: 1px;
+  width: 70%;
+  height: 30px;
+  margin-bottom: 20px;
+}
+
+ .input-login input {
+  background: transparent;
+  width: 100%;
+  outline-width: 0;
+  color: black;
+  border: none;
+  font: 600 17px Nunito, sans-serif;
+  margin-left: 12px;
+  margin-right: 10px;
+  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -webkit-appearance: none;
+}
+
+ .input-password input {
+  background: transparent;
+  width: 100%;
+  outline-width: 0;
+  color: black;
+  border: none;
+  font: 600 17px Nunito, sans-serif;
+  margin-left: 12px;
+  margin-right: 10px;
+}
+
+
+
+ .enter-app:hover {
+  background-color: #707070;
+}
+
+ .squareLogin {
+  display: flex;
+  margin-top: 80px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: #f0f0f0;
+  border-radius: 20px;
+  box-shadow: 0 10px 25x rgba(92, 99, 105, 0.2);
+  width: 350px;
+  height: 350px;
+}
+
+ .enter-app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #303030;
+  width: 60px;
+  height: 57px;
+  border-radius: 15px;
+  margin-left: 30ch;
+  margin-top: -8.5ch;
+}
+
+.forget-password {
+  font-family: Nunito;
+  font-size: 15px;
+  color: black;
+  
+}
+
+.help {
+  position: absolute;
+  right: 10px;
+  bottom: 5px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.help:hover {
+  background-color: #707070;
+}
+
+.circleIconLogin {
+  position: absolute;
+  width: 92px;
+  height: 94px;
+  left: 322px;
+  top: 284px;
+  margin-top: 100px;
+  margin-bottom: -130px;
+  background-color: #f0f0f0;
+  border: 1px solid #fff;
+  border-radius: 1000%;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  box-shadow: 2px 2px 2px 2px rgba(50, 50, 50, 0.6);
+}
+
+.iconLogin {
+  color: #303030;
+  position: absolute;
+  justify-content: center;
+  flex-direction: column;
+  top: 2px;
+  left: 1px;
+}
+.user-login__error {
+  color: red;
+}

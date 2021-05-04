@@ -1,0 +1,8 @@
+#Layout{
+  display: flex;
+  width: 6%;
+  height: 100vh;
+  flex: 0;
+  position: absolute;
+
+}
